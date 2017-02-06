@@ -1,0 +1,11 @@
+.username-label{
+	padding: 0 5px;
+}
+
+a.dropdown-toggle{
+	padding-right: 30px;
+}
+
+#logout{
+	cursor: pointer;
+}

@@ -1,0 +1,13 @@
+<ul class="nav navbar-nav navbar-right">
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+    	<span class="username-label">{{name}}</span>
+      <i class="material-icons">account_circle</i> <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a id="logout" (click)="fbLogout()">Log out<i class="material-icons pull-right">lock_open</i></a></li>
+    </ul>
+  </li>
+</ul>
+
+<span (logout)="receiveEvent()"></span>
